@@ -1,24 +1,24 @@
-.page {
+.page{
 min-width: 1100px;
 max-width: 1600px;
 font-family: 'Helvetica Neue', Arial, sans-serif;
 }
-.header {
+.header{
 height: 100vh;
 min-height: 600px;
 max-height: 756px;
 display: flex;
 flex-direction: column;
 justify-content: center;
-position: relative; 
-background-color:  #f2f2f2;
+position: relative;
+background-color:#f2f2f2;
 margin: 0 auto;
 overflow: hidden;
 }
-.header__square-pic {
+.header__square-pic{
 height: 568px;
 width: 568px;
-background-color: #2f80ed;
+background-color:#2f80ed;
 position: absolute;
 top: 64px;
 right: 0px;
@@ -137,7 +137,7 @@ padding-top: 20px;
 .table{
 margin: 0 auto;
 display: flex;
-flex-direction: row; 
+flex-direction: row;
 justify-content: center;
 flex-wrap: wrap; 
 width: 1100px;
@@ -149,13 +149,13 @@ padding-left: 0px;
 .table__heading{
 line-height: 1.15;
 font-size: 24px;
-font-weight: bold; 
+font-weight: bold;
 margin: 0 auto;
 }
 .table__text{
 line-height: 1.2;
 font-size: 18px;
-font-style: normal;  
+font-style: normal;
 padding-top: 20px;
 margin: 0 auto;
 }
@@ -173,7 +173,7 @@ justify-content: flex-start;
 align-items: center;
 min-height: 790px;
 width: 100%;
-background-color:#f2f2f2; 
+background-color:#f2f2f2;
 background-repeat: no-repeat;
 position: relative;
 margin: 0 auto;
@@ -208,7 +208,7 @@ top: 57%; /*Увеличил процент с 50 на 57 чтобы ссылк�
 } 
 .feynman__image{
 width: 867px;
-height: 637px;  
+height: 637px;
 position: absolute;
 left: 0px;
 bottom: 0px;
@@ -243,7 +243,7 @@ font-style: normal;
 color: white;
 display: flex;
 justify-content: center;
-margin: 0 auto; 
+margin: 0 auto;
 width: 60%;
 padding-top: 20px;
 z-index: 5;
@@ -252,9 +252,9 @@ z-index: 5;
 list-style-type: none;
 margin: 0 auto;
 display: flex;
-flex-direction: row; 
+flex-direction: row;
 justify-content: space-between;
-flex-wrap: wrap; 
+flex-wrap: wrap;
 width: 1100px;
 right: auto;
 left: auto;
@@ -300,7 +300,7 @@ display: flex;
 display: flex;
 width: 90%;
 justify-content: space-between;
-margin:60px auto 40px ;
+margin:60px auto 40px;
 }
 .footer__column{
 flex-direction: column;
