@@ -33,15 +33,14 @@ left: 64px;
 z-index: 3;
 }
 .header__title{
-width: 730px;
-position: absolute;
+max-width: 730px;
 justify-content: center;
-left: 64px;
-top:auto;
+padding-left: 64px;
 line-height: 96px;
 font-size: 102px;
 font-weight: bold;
 z-index: 3;
+margin: 0;
 }
 .header__subtitle{
 width: 388px;
@@ -52,9 +51,11 @@ line-height: 25px;
 font-size: 18px;
 font-weight: normal;
 z-index: 3;
+margin: 0;
 }
 .header__link{
 text-decoration: none;
+color: #2f80ed;
 }
 .header__main-illustration{
 width: 765px;
@@ -82,7 +83,7 @@ margin-bottom: 0px;
 .two-columns__brief{
 line-height: 1.2;
 font-size: 18px;
-font-style: normal;
+font-weight: normal;
 color:  #2f80ed;
 margin: 0 auto;
 }
@@ -93,18 +94,11 @@ font-style: normal;
 width: 80%;
 min-width: 784px;
 }
-.two-columns__paragraph_1{
-margin: 0 auto;
-}
-.two-columns__paragraph_2{
+.two-columns__paragraph{
 padding-top: 30px;
 margin: 0 auto;
 }
-.two-columns__paragraph_3{
-padding-top: 30px;
-margin: 0 auto;
-}
-.span-accent{
+.two-columns__span{
 font-weight: bold;
 }
 .digits{
@@ -138,7 +132,7 @@ padding-top: 20px;
 margin: 0 auto;
 display: flex;
 flex-direction: row;
-justify-content: center;
+justify-content: space-between;
 flex-wrap: wrap;
 width: 1100px;
 right: auto;
@@ -155,16 +149,13 @@ margin: 0 auto;
 .table__text{
 line-height: 1.2;
 font-size: 18px;
-font-style: normal;
+font-weight: normal;
 padding-top: 20px;
 margin: 0 auto;
 }
 .table__cell{
 width: 250px;
 margin-top: 60px;
-}
-.table__subtitle{
-padding-top: 20px;
 }
 .feynman {
 display: flex;
@@ -199,9 +190,10 @@ margin: 0 auto;
 .feynman__link{
 line-height: 51px;
 font-size: 36px;
-font-style: normal;
+font-weight: normal;
 text-decoration: none;
 z-index: 4;
+color: #2f80ed;
 position: absolute;
 right: 48px;
 top: 57%; /*Увеличил процент с 50 на 57 чтобы ссылка встала в одну линию с параграфом*/
@@ -220,12 +212,11 @@ position: relative;
 flex-direction: column;
 justify-content: center;
 height: auto;
-background-color: #000000;
+background-color: #1f1f1f;
 overflow: hidden;
 margin: 0 auto;
 }
 .section-title_theme_dark{
-line-height: 1.15;
 font-size: 60px;
 font-weight: bold;
 color: white;
@@ -288,26 +279,27 @@ right: -210px;
 z-index: 3;
 width: 877px;
 height: 877px;
+background-size: cover;
 }
 .footer{
-background-color:black;
+background-color: #1f1f1f;
 min-height: 350px;
 padding: 60px 0px 40px;
 color: white;
 display: flex;
+box-sizing: border-box;
 }
 .footer__columns{
 display: flex;
 width: 90%;
 justify-content: space-between;
-margin:60px auto 40px;
 }
 .footer__column{
 flex-direction: column;
 justify-content: space-between;
 display: flex;
 }
-.footer_column_content_copyright{
+.footer__column_content_copyright{
 display: flex;
 flex-basis: 711px;
 flex-direction: column;
@@ -324,12 +316,12 @@ font-style: normal;
 padding: 18px 0px;
 margin: 0;
 }
-.footer_column_content_info{
+.footer__column_content_info{
 margin: 0;
 padding: 0;
 justify-content: flex-start;
 }
-.footer_column_content_social{
+.footer__column_content_social{
 margin: 0;
 padding: 0;
 justify-content: flex-start;
