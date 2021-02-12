@@ -1,0 +1,8 @@
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    padding-top: 100px;
+    margin: 0 auto;
+    }

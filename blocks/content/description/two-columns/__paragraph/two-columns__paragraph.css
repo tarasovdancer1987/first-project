@@ -1,0 +1,7 @@
+.two-columns__paragraph{
+    margin-bottom: 30px;
+    margin: 0;
+    }
+    .two-columns__paragraph:last-of-child{
+    margin-bottom: 0;   
+    }
