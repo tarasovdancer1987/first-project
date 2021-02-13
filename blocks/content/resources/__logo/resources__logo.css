@@ -7,3 +7,7 @@ opacity: 1;
 background-position: center;
 justify-content: space-between;
 }
+.resources__logo:hover{
+    transition: 0.7s;
+    opacity: 0.5;
+}
