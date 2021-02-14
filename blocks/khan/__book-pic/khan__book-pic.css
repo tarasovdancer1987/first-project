@@ -3,4 +3,5 @@ width: 608px;
 height: 620px;
 display: flex;
 margin: 0;
+object-fit: contain;
 }
